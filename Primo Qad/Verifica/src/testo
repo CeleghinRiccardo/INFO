@@ -1,0 +1,10 @@
+La biblioteca digitale della scuola intende sviluppare un sistema software orientato agli oggetti per la gestione dei propri volumi.
+Ogni libro, rappresentato dalla classe Libro, è caratterizzato dal titolo, autore e casa editrice. Inoltre è composto da un numero fisso di pagine, stabilito al momento della sua creazione.
+Deve essere possibile creare un libro con tutti i suoi attributi oppure solo con titolo e autore, utilizzando costruttori sovraccarichi.
+Ogni pagina, modellata dalla classe Pagina, è identificata da un numero progressivo e contiene un testo.
+Il sistema deve permettere di rappresentare libri generici e libri digitali.
+I libri digitali, rappresentati dalla classe LibroDigitale, sono una specializzazione dei libri e si distinguono per la possibilità di essere consultati online e scaricati in diversi formati.
+La classe LibroDigitale deve implementare l’interfaccia Consultabile, che definisce i metodi per la consultazione online e la stampa.
+La dimensione del file di un libro digitale deve essere calcolata automaticamente in base al numero totale delle sue pagine, considerando che ogni pagina occupa 100 byte.
+È necessario prevedere un meccanismo per visualizzare le informazioni complete di un libro, e per i libri digitali tale visualizzazione deve includere anche la dimensione del file.
+Questo metodo deve essere ridefinito nella classe LibroDigitale tramite override. Inoltre, il sistema deve consentire la consultazione online dei libri digitali e la loro stampa.
