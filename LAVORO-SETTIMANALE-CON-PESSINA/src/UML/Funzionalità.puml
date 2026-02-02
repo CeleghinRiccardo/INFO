@@ -1,0 +1,11 @@
+@startuml
+
+"User"
+
+
+(Inserire informazioni prodotto)
+(Verificare spazio disponbibile)
+(Aggiungere prodotto)
+
+
+@enduml

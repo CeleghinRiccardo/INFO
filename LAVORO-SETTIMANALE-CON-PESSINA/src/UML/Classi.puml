@@ -1,0 +1,42 @@
+@startuml
+
+package Gestione {
+
+    class ArrayDinamico {
+        - prodotto:Prodotto[]
+        - cui:CUI
+        - capacità:int
+    }
+
+    class Prodotto {
+        - tipo:String
+        - anno:int
+        - marca:String
+    }
+
+    interface Lista {
+        + Add():void
+        + Get():void
+        + Remove():void
+        + Size():void
+        + Contains():void
+        + IndexOf():void
+        + Clear():void
+        + ToArray():void
+    }
+}
+
+package interazione {
+    class CUI {
+        + menu():void
+        + input():void
+        + statoLista():void
+    }
+}
+
+Prodotto "1" --> "1..*" ArrayDinamico
+ArrayDinamico --> CUI
+CUI --> ArrayDinamico
+ArrayDinamico <.. Lista
+
+@enduml
