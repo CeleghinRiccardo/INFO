@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Primo Qad/ArrayList.1/ArrayList.1.iml" filepath="$PROJECT_DIR$/Primo Qad/ArrayList.1/ArrayList.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primo Qad/FrigoriferoT/FrigoriferoT.iml" filepath="$PROJECT_DIR$/Primo Qad/FrigoriferoT/FrigoriferoT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/INFO.iml" filepath="$PROJECT_DIR$/.idea/INFO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primo Qad/LAVORO-SETTIMANALE-CON-PESSINA/LAVORO-SETTIMANALE-CON-PESSINA.iml" filepath="$PROJECT_DIR$/Primo Qad/LAVORO-SETTIMANALE-CON-PESSINA/LAVORO-SETTIMANALE-CON-PESSINA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Primo Qad/Verifica/Verifica.iml" filepath="$PROJECT_DIR$/Primo Qad/Verifica/Verifica.iml" />
+    </modules>
+  </component>
+</project>
