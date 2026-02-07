@@ -4,13 +4,13 @@ import Code.Blocco;
 
 public class CUI {
 
-    static Pila<Blocco> pila1= new Pila<>();
-    static Pila<Blocco> pila2= new Pila<>();
-    static Pila<Blocco> pila3= new Pila<>();
-    static Blocco b1 = new Blocco(1);
-    static Blocco b2 = new Blocco(2);
-    static Blocco b3 = new Blocco(3);
-    static int  i = 0;
+    private static Pila<Blocco> pila1= new Pila<>();
+    private static Pila<Blocco> pila2= new Pila<>();
+    private static Pila<Blocco> pila3= new Pila<>();
+    private static Blocco b1 = new Blocco(1);
+    private static Blocco b2 = new Blocco(2);
+    private static Blocco b3 = new Blocco(3);
+    private static int  i = 0;
 
     public static void menu(){
         do {

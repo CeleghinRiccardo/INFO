@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Pila <Blocco>{
 
     private ArrayList<Blocco> Pila;
-    private int i;
+
 
     public Pila(){
         Pila = new ArrayList<>();
