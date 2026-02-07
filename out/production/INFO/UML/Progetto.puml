@@ -1,16 +1,16 @@
 @startuml
 package Code{
+
 class Pila{
 - Pila : ArrayList<Blocco>
-    - i : int
 
-    + Pila()
-    + push(obj : Blocco) : void
-    + pop() : Blocco
-    + top() : Blocco
-    + size() : int
-    + vuota() : boolean
-    + svuota() : void
++ Pila()
++ push(obj : Blocco) : void
++ pop() : Blocco
++ top() : Blocco
++ size() : int
++ vuota() : boolean
++ svuota() : void
 }
 class Blocco{
 -base : int
@@ -23,12 +23,13 @@ class Blocco{
 
 package Gestione{
 class CUI{
-+ pila1 : Pila<Blocco>
-+ pila2 : Pila<Blocco>
-+ pila3 : Pila<Blocco>
-+ b1 : Blocco
-+ b2 : Blocco
-+ b3 : Blocco
+- pila1 : Pila<Blocco>
+- pila2 : Pila<Blocco>
+- pila3 : Pila<Blocco>
+- b1 : Blocco
+- b2 : Blocco
+- b3 : Blocco
+- i : int
 
 +menu() : void
 }
