@@ -1,0 +1,36 @@
+@startuml
+
+class Blocco{
+-base : int
++Blocco()
++getBase() : Blocco
++setBase(int base) : void
+}
+
+class Pila{
+- Pila : ArrayList<Blocco>
+    - i : int
+
+    + Pila()
+    + push(obj : Blocco) : void
+    + pop() : Blocco
+    + top() : Blocco
+    + size() : int
+    + vuota() : boolean
+    + svuota() : void
+}
+
+class Main {
++
++ pila1 : Pila<Blocco>
++ pila2 : Pila<Blocco>
++ pila3 : Pila<Blocco>
++ b1 : Blocco
++ b2 : Blocco
++ b3 : Blocco
+
+
+
+}
+
+@enduml
