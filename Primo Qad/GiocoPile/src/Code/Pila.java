@@ -22,6 +22,11 @@ public class Pila <Blocco>{
         return null;
     }
 
+
+    public Blocco get(int i){
+        return Pila.get(i);
+    }
+
     public Blocco top(){
         if(Pila.size()>0){
             return Pila.getLast();
@@ -46,7 +51,7 @@ public class Pila <Blocco>{
 
     @Override
     public String toString() {
-        return Pila.toString();
+        return 
     }
 
 }
