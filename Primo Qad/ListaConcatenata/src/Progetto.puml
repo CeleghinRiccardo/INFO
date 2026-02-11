@@ -1,0 +1,23 @@
+@startuml
+
+class Nodo{
+- successivo : Nodo
+- valore : <E>
+
++nodo()
++getPuntatore() : puntatore
++setPuntatore() : void
++getSuccessovo() : successivo
++setSuccessivo() : void
+
+}
+
+class Lista{
+- lista : ArrayList<Nodo>
+
++lista()
++add()
++remove()
+}
+Nodo "1..* "--> "1"Lista
+@enduml

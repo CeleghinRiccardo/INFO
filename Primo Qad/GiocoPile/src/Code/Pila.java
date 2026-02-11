@@ -48,10 +48,10 @@ public class Pila <Blocco>{
     public void svuota(){
         Pila.clear();
     }
-
+/*
     @Override
     public String toString() {
         return 
-    }
+    }*/
 
 }
