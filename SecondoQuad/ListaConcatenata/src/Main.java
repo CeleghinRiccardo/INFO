@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.ListResourceBundle;
-
 public class Main {
     public static void main(String[] args) {
         Nodo testa = new Nodo("Riccardo");

@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class ListaConcatenata {
     private Nodo testa;
     private Nodo coda;
