@@ -1,22 +1,17 @@
 public class Nodo {
+
+
     private int dato;
-    private Nodo succ;
-    public Nodo(int dato) {
-        this.succ = null;
+    private Nodo destra;
+    private Nodo sinistra;
+    private int chiave;
+
+
+    public Nodo(int chiave, Nodo sinistra, Nodo destra, int dato) {
+        this.chiave = chiave;
+        this.sinistra = null;
+        this.destra = null;
         this.dato = dato;
-    }
-
-    public Nodo(Nodo succ, int dato) {
-        this.succ = succ;
-        this.dato = dato;
-    }
-
-    public Nodo getSucc() {
-        return succ;
-    }
-
-    public void setSucc(Nodo succ) {
-        this.succ = succ;
     }
 
     public int getDato() {
@@ -27,8 +22,31 @@ public class Nodo {
         this.dato = dato;
     }
 
-    public void aggiungiNodo(){
-
+    public Nodo getDestra() {
+        return destra;
     }
 
+    public void setDestra(Nodo destra) {
+        this.destra = destra;
+    }
+
+    public Nodo getSinistra() {
+        return sinistra;
+    }
+
+    public void setSinistra(Nodo sinistra) {
+        this.sinistra = sinistra;
+    }
+
+    public int getChiave() {
+        return chiave;
+    }
+
+    public void setChiave(int chiave) {
+        this.chiave = chiave;
+    }
 }
+
+
+
+
