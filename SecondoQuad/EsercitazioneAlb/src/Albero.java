@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Albero <Nodo>{
     private Nodo root;
+    private int size;
     private ArrayList<Nodo> alb;
 
     public Albero(Nodo root){
@@ -9,7 +10,10 @@ public class Albero <Nodo>{
         alb = new ArrayList<>();
     }
 
-    public void inserisciNodo(){
+    public Nodo getRoot() {return root;}
+
+    public void addNodo(){
+
 
     }
 

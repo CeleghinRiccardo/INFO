@@ -14,37 +14,19 @@ public class Nodo {
         this.dato = dato;
     }
 
-    public int getDato() {
-        return dato;
-    }
+    public int getDato() {return dato;}
 
-    public void setDato(int dato) {
-        this.dato = dato;
-    }
+    public Nodo getDestra() {return destra;}
 
-    public Nodo getDestra() {
-        return destra;
-    }
+    public void setDestra(Nodo destra) {this.destra = destra;}
 
-    public void setDestra(Nodo destra) {
-        this.destra = destra;
-    }
+    public Nodo getSinistra() {return sinistra;}
 
-    public Nodo getSinistra() {
-        return sinistra;
-    }
+    public void setSinistra(Nodo sinistra) {this.sinistra = sinistra;}
 
-    public void setSinistra(Nodo sinistra) {
-        this.sinistra = sinistra;
-    }
+    public int getChiave() {return chiave;}
 
-    public int getChiave() {
-        return chiave;
-    }
 
-    public void setChiave(int chiave) {
-        this.chiave = chiave;
-    }
 }
 
 
