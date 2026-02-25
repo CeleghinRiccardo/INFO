@@ -1,10 +1,14 @@
-import java.util.HashMap;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        String testo = "ciao mi chiamo riccardo come stai";
+        String testo;
+        Scanner sc = new Scanner(System.in);
         ConteggioParole conteggioParole = new ConteggioParole();
+
+        System.out.println("inserisci testo: ");
+        testo=sc.nextLine();
 
         String[] parole = testo.split(" ");
 
