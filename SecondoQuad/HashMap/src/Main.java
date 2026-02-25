@@ -10,13 +10,14 @@ public class Main {
         System.out.println("inserisci testo: ");
         testo=sc.nextLine();
 
-        String[] parole = testo.split(" ");
+        String[] parole = testo.split("[ ,.:;]");
 
         for (int i = 0; i < parole.length; i++) {
             conteggioParole.aggiungiParola(parole[i]);
         }
 
         conteggioParole.stampaTutto();
+
 
     }
 }

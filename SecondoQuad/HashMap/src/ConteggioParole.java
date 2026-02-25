@@ -1,8 +1,6 @@
 import java.util.HashMap;
-import java.util.Locale;
 
 public class ConteggioParole {
-
     private HashMap<String, Integer> mappaParole;
 
     public ConteggioParole() {
@@ -20,6 +18,6 @@ public class ConteggioParole {
     }
 
     public void stampaTutto(){
-        mappaParole.forEach((k,v) -> System.out.println("parola: "+k+" contenuta "+v+" volte "));
+        mappaParole.forEach((k,v) -> System.out.println("parola: "+k.toUpperCase()+" ---contenuta ---"+v+"--- volte "));
     }
 }
