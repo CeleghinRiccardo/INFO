@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Primo Qad/ArrayList.1/ArrayList.1.iml" filepath="$PROJECT_DIR$/Primo Qad/ArrayList.1/ArrayList.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondoQuad/EsercitazioneAlb/EsercitazioneAlb.iml" filepath="$PROJECT_DIR$/SecondoQuad/EsercitazioneAlb/EsercitazioneAlb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SecondoQuad/Esercizi/Esercizi.iml" filepath="$PROJECT_DIR$/SecondoQuad/Esercizi/Esercizi.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primo Qad/FrigoriferoT/FrigoriferoT.iml" filepath="$PROJECT_DIR$/Primo Qad/FrigoriferoT/FrigoriferoT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Primo Qad/GiocoPile/GiocoPile.iml" filepath="$PROJECT_DIR$/Primo Qad/GiocoPile/GiocoPile.iml" />
       <module fileurl="file://$PROJECT_DIR$/SecondoQuad/HashMap/HashMap.iml" filepath="$PROJECT_DIR$/SecondoQuad/HashMap/HashMap.iml" />
