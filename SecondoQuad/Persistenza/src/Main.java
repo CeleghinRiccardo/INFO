@@ -7,10 +7,10 @@ public class Main {
         String path = System.getProperty("user.home");
         boolean exit = false;
 
-        System.out.println("********************************");
+        System.out.println("****************************************");
         System.out.println("CMDSim CLI");
-        System.out.println("Copyright (c) 2026 Luca Ballabio");
-        System.out.println("********************************");
+        System.out.println("Copyright (c) 2026 Celeghin Riccardo");
+        System.out.println("****************************************");
         System.out.println("\nType 'help' for available commands");
 
         do {
