@@ -31,4 +31,12 @@ public class Contatto {
     public void setnTel(String nTel) {
         this.nTel = nTel;
     }
+
+    @Override
+    public String toString() {
+        return "Contatto "+
+                " Nome: " + nome + " " +
+                ",Cognome: " + cognome + " " +
+                ",Numero Telefono: " + nTel + " ";
+    }
 }
